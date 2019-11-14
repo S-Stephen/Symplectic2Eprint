@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" 
+    xmlns:api="http://www.symplectic.co.uk/publications/api">
+    <api:schema-version>5.5</api:schema-version>
+    <category scheme="http://www.symplectic.co.uk/publications/atom/feeds/" term="relationship-list" label="Relationship list"/>
+    <id>tag:elements@cambridge,5.16:/elements-api/v5.5/feeds/publications/1104525/relationships?types=8%2C9</id>
+    <updated>2019-11-14T12:54:25.3784875+00:00</updated>
+    <generator uri="https://elements.admin.cam.ac.uk/" version="5.16">Symplectic Elements</generator>
+    <icon>https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/symplectic.ico</icon>
+    <rights>This data is the property of the Organisation, and can only be used with permission.</rights>
+    <subtitle>This feed represents a page of relationships from the following search query: https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/publications/1104525/relationships?types=8%2C9</subtitle>
+    <api:pagination results-count="2" items-per-page="25">
+        <api:page position="this" href="https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/publications/1104525/relationships?types=8%2C9"/>
+    </api:pagination>
+    <link type="application/atom+xml" rel="self" href="https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/publications/1104525/relationships?types=8%2C9"/>
+    <title>Relationships of the publication: An Inclusive, Fully Autonomous Vehicle Simulator for the Introduction of Human-Robot Interaction Technologies</title>
+    <author>
+        <name>Symplectic Elements at Cambridge</name>
+    </author>
+    <entry>
+        <id>tag:elements@cambridge,5.16:/elements-api/v5.5//publications/1104525/relationships?types=8%2C9</id>
+        <category scheme="http://www.symplectic.co.uk/publications/atom/entries/" term="relationship" label="Relationship"/>
+        <updated>2019-08-27T12:11:53.147+01:00</updated>
+        <link type="application/atom+xml" rel="alternate" href="https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/publications/1104525/relationships?types=8%2C9"/>
+        <link type="application/atom+xml" rel="related" title="Object 1" href="https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/publications/1104525?detail=ref"/>
+        <link type="application/atom+xml" rel="related" title="Object 2" href="https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/users/80?detail=ref"/>
+        <title>Authored by: CLARKSON, Peter J (John)</title>
+        <content type="xhtml">
+            <div xmlns="http://www.w3.org/1999/xhtml">
+                <p>Involving <a href="https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/users/80">CLARKSON, Peter J (John)</a>
+                </p>
+            </div>
+        </content>
+        <api:relationship id="2002783" type-id="8" type="publication-user-authorship" last-modified-when="2019-08-27T12:11:53.147+01:00" href="https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/relationships/2002783?detail=ref">
+            <api:is-visible>true</api:is-visible>
+            <api:is-favourite>false</api:is-favourite>
+            <api:related direction="to" category="user" id="80">
+                <api:object category="user" id="80" proprietary-id="10071216" authenticating-authority="University of Cambridge" username="pjc10" last-affected-when="2019-11-12T20:02:24.58+00:00" last-modified-when="2019-10-17T13:12:50.85+01:00" href="https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/users/80" created-when="2009-05-27T14:03:28.977+01:00" type-id="1" type="person">
+                    <api:relationships href="https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/users/80/relationships"/>
+                </api:object>
+            </api:related>
+        </api:relationship>
+    </entry>
+    <entry>
+        <id>tag:elements@cambridge,5.16:/elements-api/v5.5//publications/1104525/relationships?types=8%2C9</id>
+        <category scheme="http://www.symplectic.co.uk/publications/atom/entries/" term="relationship" label="Relationship"/>
+        <updated>2019-08-27T12:11:53.147+01:00</updated>
+        <link type="application/atom+xml" rel="alternate" href="https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/publications/1104525/relationships?types=8%2C9"/>
+        <link type="application/atom+xml" rel="related" title="Object 1" href="https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/publications/1104525?detail=ref"/>
+        <link type="application/atom+xml" rel="related" title="Object 2" href="https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/users/258?detail=ref"/>
+        <title>Authored by: LANGDON, Patrick M</title>
+        <content type="xhtml">
+            <div xmlns="http://www.w3.org/1999/xhtml">
+                <p>Involving <a href="https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/users/258">LANGDON, Patrick M</a>
+                </p>
+            </div>
+        </content>
+        <api:relationship id="2002785" type-id="8" type="publication-user-authorship" last-modified-when="2019-08-27T12:11:53.147+01:00" href="https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/relationships/2002785?detail=ref">
+            <api:is-visible>true</api:is-visible>
+            <api:is-favourite>false</api:is-favourite>
+            <api:related direction="to" category="user" id="258">
+                <api:object category="user" id="258" proprietary-id="10076417" authenticating-authority="University of Cambridge" username="pml24" last-affected-when="2019-11-12T20:51:54.207+00:00" last-modified-when="2019-10-17T13:13:25.663+01:00" href="https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/users/258" created-when="2009-05-27T14:03:28.977+01:00" type-id="1" type="person">
+                    <api:relationships href="https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/users/258/relationships"/>
+                </api:object>
+            </api:related>
+        </api:relationship>
+    </entry>
+</feed>

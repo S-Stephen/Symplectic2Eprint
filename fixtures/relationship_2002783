@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" 
+    xmlns:api="http://www.symplectic.co.uk/publications/api">
+    <api:schema-version>5.5</api:schema-version>
+    <category scheme="http://www.symplectic.co.uk/publications/atom/feeds/" term="single-relationship" label="Single relationship"/>
+    <id>tag:elements@cambridge,5.16:/elements-api/v5.5/feeds//relationships/2002783</id>
+    <updated>2019-11-12T20:02:24.58+00:00</updated>
+    <generator uri="https://elements.admin.cam.ac.uk/" version="5.16">Symplectic Elements</generator>
+    <icon>https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/symplectic.ico</icon>
+    <rights>This data is the property of the Organisation, and can only be used with permission.</rights>
+    <subtitle>This feed represents a single relationship between two items.</subtitle>
+    <link type="application/atom+xml" rel="self" href="https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/relationships/2002783"/>
+    <title>A publication-user relationship</title>
+    <author>
+        <name>Symplectic Elements at Cambridge</name>
+    </author>
+    <entry>
+        <id>tag:elements@cambridge,5.16:/elements-api/v5.5//relationships/2002783</id>
+        <category scheme="http://www.symplectic.co.uk/publications/atom/entries/" term="relationship" label="Relationship"/>
+        <updated>2019-08-27T12:11:53.147+01:00</updated>
+        <link type="application/atom+xml" rel="alternate" href="https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/relationships/2002783"/>
+        <link type="application/atom+xml" rel="related" title="Object 1" href="https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/publications/1104525"/>
+        <link type="application/atom+xml" rel="related" title="Object 2" href="https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/users/80"/>
+        <title>"An Inclusive, Fully Autonomous Vehicle Simulator for the Introduction of Human-Robot Interaction Technologies" Authored by "CLARKSON, Peter J (John)"</title>
+        <content type="xhtml">
+            <div xmlns="http://www.w3.org/1999/xhtml">
+                <p>
+                    <a href="https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/publications/1104525">An Inclusive, Fully Autonomous Vehicle Simulator for the Introduction of Human-Robot Interaction Technologies</a> ==== (                    <a href="https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/relationship/types">Authored by</a>) ===&gt; <a href="https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/users/80">CLARKSON, Peter J (John)</a>
+                </p>
+            </div>
+        </content>
+        <api:relationship id="2002783" type-id="8" type="publication-user-authorship" last-modified-when="2019-08-27T12:11:53.147+01:00" href="https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/relationships/2002783?detail=ref">
+            <api:is-visible>true</api:is-visible>
+            <api:is-favourite>false</api:is-favourite>
+            <api:related direction="from" category="publication" id="1104525">
+                <api:object category="publication" id="1104525" last-affected-when="2019-10-24T23:03:14.68+01:00" last-modified-when="2019-10-24T23:03:14.68+01:00" href="https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/publications/1104525" created-when="2019-07-04T17:55:32.007+01:00" type-id="4" type="conference">                    <!--Publication type 4 is "conference"-->
+                    <api:ever-approved>true</api:ever-approved>
+                    <api:reporting-date-1>2020-01-01</api:reporting-date-1>
+                    <api:is-public>true</api:is-public>
+                    <api:records>
+                        <api:record format="native" id="3086035" source-id="7" source-name="scopus" source-display-name="Scopus" id-at-source="2-s2.0-85067339081">
+                            <api:citation-count>0</api:citation-count>
+                            <api:native>
+                                <api:field name="abstract" type="text" display-name="Abstract or first paragraph">
+                                    <api:text>&amp; #x00A9; 2020, Springer Nature Switzerland AG. As fully autonomous - SAE level 5 - vehicles approach commercialisation, there is need to design and test user interfaces specifically for such use. However, testing in real environments is currently limited or, in many cases, impossible. In this paper, as a solution, we present a dedicated simulator for fully autonomous vehicles. First, we outline the design requirements for this simulator. Inclusive design principles were used to accommodate a large range of diversity in our population. It can thus be used by individuals with visual, auditory and certain physical and cognitive impairments. Second, we describe the capabilities of the simulator in terms of human-robot interaction technologies. We aim to assess both performance and non-performance characteristics of the resulting systems and how they can be integrated in the transportation experience. Third, we collate the knowledge obtained during this project to provide a deeper understanding of human factors in operating fully autonomous vehicles. We hope these results provide a basis for further research and improve the experience of users.</api:text>
+                                </api:field>
+                                <api:field name="authors" type="person-list" display-name="Authors">
+                                    <api:people>
+                                        <api:person>
+                                            <api:last-name>Amanatidis</api:last-name>
+                                            <api:initials>T</api:initials>
+                                            <api:first-names>T</api:first-names>
+                                            <api:separate-first-names>
+                                                <api:first-name>T</api:first-name>
+                                            </api:separate-first-names>
+                                            <api:addresses>
+                                                <api:address iso-country-code="GB">
+                                                    <api:line type="organisation">Department of Engineering</api:line>
+                                                    <api:line type="city">Cambridge</api:line>
+                                                    <api:line type="country">United Kingdom</api:line>
+                                                    <api:grid id="grid.5335.0" href="https://grid.ac/institutes/grid.5335.0" latitude="52.20445" longitude="0.11491"/>
+                                                </api:address>
+                                            </api:addresses>
+                                            <api:identifiers>
+                                                <api:identifier scheme="scopus-author-id">57200382670</api:identifier>
+                                            </api:identifiers>
+                                        </api:person>
+                                        <api:person>
+                                            <api:links>
+                                                <api:link type="elements/user" id="258" href="https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/users/258"/>
+                                            </api:links>
+                                            <api:last-name>Langdon</api:last-name>
+                                            <api:initials>P</api:initials>
+                                            <api:first-names>P</api:first-names>
+                                            <api:separate-first-names>
+                                                <api:first-name>P</api:first-name>
+                                            </api:separate-first-names>
+                                            <api:addresses>
+                                                <api:address iso-country-code="GB">
+                                                    <api:line type="organisation">Department of Engineering</api:line>
+                                                    <api:line type="city">Cambridge</api:line>
+                                                    <api:line type="country">United Kingdom</api:line>
+                                                    <api:grid id="grid.5335.0" href="https://grid.ac/institutes/grid.5335.0" latitude="52.20445" longitude="0.11491"/>
+                                                </api:address>
+                                            </api:addresses>
+                                            <api:identifiers>
+                                                <api:identifier scheme="scopus-author-id">55781400200</api:identifier>
+                                            </api:identifiers>
+                                        </api:person>
+                                        <api:person>
+                                            <api:links>
+                                                <api:link type="elements/user" id="80" href="https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/users/80"/>
+                                            </api:links>
+                                            <api:last-name>Clarkson</api:last-name>
+                                            <api:initials>PJ</api:initials>
+                                            <api:first-names>PJ</api:first-names>
+                                            <api:separate-first-names>
+                                                <api:first-name>P</api:first-name>
+                                                <api:first-name>J</api:first-name>
+                                            </api:separate-first-names>
+                                            <api:addresses>
+                                                <api:address iso-country-code="GB">
+                                                    <api:line type="organisation">Department of Engineering</api:line>
+                                                    <api:line type="city">Cambridge</api:line>
+                                                    <api:line type="country">United Kingdom</api:line>
+                                                    <api:grid id="grid.5335.0" href="https://grid.ac/institutes/grid.5335.0" latitude="52.20445" longitude="0.11491"/>
+                                                </api:address>
+                                            </api:addresses>
+                                            <api:identifiers>
+                                                <api:identifier scheme="scopus-author-id">7103180311</api:identifier>
+                                            </api:identifiers>
+                                        </api:person>
+                                    </api:people>
+                                </api:field>
+                                <api:field name="doi" type="text" display-name="Publisher DOI">
+                                    <api:text>10.1007/978-3-030-20503-4_14</api:text>
+                                    <api:links>
+                                        <api:link type="doi" href="http://doi.org/10.1007/978-3-030-20503-4_14"/>
+                                        <api:link type="altmetric" href="http://www.altmetric.com/details.php?doi=10.1007/978-3-030-20503-4_14"/>
+                                    </api:links>
+                                </api:field>
+                                <api:field name="eissn" type="text" display-name="eISSN">
+                                    <api:text>2194-5365</api:text>
+                                </api:field>
+                                <api:field name="isbn-13" type="text" display-name="ISBN-13">
+                                    <api:text>9783030205027</api:text>
+                                </api:field>
+                                <api:field name="issn" type="text" display-name="ISSN">
+                                    <api:text>2194-5357</api:text>
+                                    <api:links>
+                                        <api:link type="elements/journal" href="https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/journals/920607"/>
+                                    </api:links>
+                                </api:field>
+                                <api:field name="journal" type="text" display-name="Published proceedings">
+                                    <api:text>Advances in Intelligent Systems and Computing</api:text>
+                                </api:field>
+                                <api:field name="pagination" type="pagination" display-name="Pagination">
+                                    <api:pagination>
+                                        <api:begin-page>157</api:begin-page>
+                                        <api:end-page>165</api:end-page>
+                                    </api:pagination>
+                                </api:field>
+                                <api:field name="publication-date" type="date" display-name="Publication date">
+                                    <api:date>
+                                        <api:day>1</api:day>
+                                        <api:month>1</api:month>
+                                        <api:year>2020</api:year>
+                                    </api:date>
+                                </api:field>
+                                <api:field name="publication-status" type="text" display-name="Version">
+                                    <api:text>Accepted</api:text>
+                                </api:field>
+                                <api:field name="title" type="text" display-name="Title">
+                                    <api:text>An Inclusive, Fully Autonomous Vehicle Simulator for the Introduction of Human-Robot Interaction Technologies</api:text>
+                                </api:field>
+                                <api:field name="volume" type="text" display-name="Volume">
+                                    <api:text>964</api:text>
+                                </api:field>
+                            </api:native>
+                        </api:record>
+                        <api:record format="native" id="3086038" source-id="13" source-name="crossref" source-display-name="Crossref" id-at-source="10.1007/978-3-030-20503-4_14">
+                            <api:native>
+                                <api:field name="authors" type="person-list" display-name="Authors">
+                                    <api:people>
+                                        <api:person>
+                                            <api:last-name>Amanatidis</api:last-name>
+                                            <api:initials>T</api:initials>
+                                            <api:first-names>Theocharis</api:first-names>
+                                            <api:separate-first-names>
+                                                <api:first-name>Theocharis</api:first-name>
+                                            </api:separate-first-names>
+                                        </api:person>
+                                        <api:person>
+                                            <api:links>
+                                                <api:link type="elements/user" id="258" href="https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/users/258"/>
+                                            </api:links>
+                                            <api:last-name>Langdon</api:last-name>
+                                            <api:initials>P</api:initials>
+                                            <api:first-names>Patrick</api:first-names>
+                                            <api:separate-first-names>
+                                                <api:first-name>Patrick</api:first-name>
+                                            </api:separate-first-names>
+                                        </api:person>
+                                        <api:person>
+                                            <api:links>
+                                                <api:link type="elements/user" id="80" href="https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/users/80"/>
+                                            </api:links>
+                                            <api:last-name>Clarkson</api:last-name>
+                                            <api:initials>PJ</api:initials>
+                                            <api:first-names>P John</api:first-names>
+                                            <api:separate-first-names>
+                                                <api:first-name>P</api:first-name>
+                                                <api:first-name>John</api:first-name>
+                                            </api:separate-first-names>
+                                        </api:person>
+                                    </api:people>
+                                </api:field>
+                                <api:field name="doi" type="text" display-name="Publisher DOI">
+                                    <api:text>10.1007/978-3-030-20503-4_14</api:text>
+                                    <api:links>
+                                        <api:link type="doi" href="http://doi.org/10.1007/978-3-030-20503-4_14"/>
+                                        <api:link type="altmetric" href="http://www.altmetric.com/details.php?doi=10.1007/978-3-030-20503-4_14"/>
+                                    </api:links>
+                                </api:field>
+                                <api:field name="eissn" type="text" display-name="eISSN">
+                                    <api:text>2194-5365</api:text>
+                                </api:field>
+                                <api:field name="isbn-13" type="text" display-name="ISBN-13">
+                                    <api:text>9783030205027</api:text>
+                                </api:field>
+                                <api:field name="issn" type="text" display-name="ISSN">
+                                    <api:text>2194-5357</api:text>
+                                    <api:links>
+                                        <api:link type="elements/journal" href="https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/journals/920607"/>
+                                    </api:links>
+                                </api:field>
+                                <api:field name="online-publication-date" type="date" display-name="Online publication date">
+                                    <api:date>
+                                        <api:day>6</api:day>
+                                        <api:month>6</api:month>
+                                        <api:year>2019</api:year>
+                                    </api:date>
+                                </api:field>
+                                <api:field name="pagination" type="pagination" display-name="Pagination">
+                                    <api:pagination>
+                                        <api:begin-page>157</api:begin-page>
+                                        <api:end-page>165</api:end-page>
+                                    </api:pagination>
+                                </api:field>
+                                <api:field name="parent-title" type="text" display-name="Book or section title">
+                                    <api:text>Advances in Human Factors of Transportation</api:text>
+                                </api:field>
+                                <api:field name="publication-date" type="date" display-name="Publication date">
+                                    <api:date>
+                                        <api:year>2020</api:year>
+                                    </api:date>
+                                </api:field>
+                                <api:field name="publication-status" type="text" display-name="Version">
+                                    <api:text>Published online</api:text>
+                                </api:field>
+                                <api:field name="publisher" type="text" display-name="Publisher">
+                                    <api:text>Springer International Publishing</api:text>
+                                </api:field>
+                                <api:field name="record-created-at-source-date" type="date" display-name="Record created at source">
+                                    <api:date>
+                                        <api:day>5</api:day>
+                                        <api:month>6</api:month>
+                                        <api:year>2019</api:year>
+                                    </api:date>
+                                </api:field>
+                                <api:field name="title" type="text" display-name="Title">
+                                    <api:text>An Inclusive, Fully Autonomous Vehicle Simulator for the Introduction of Human-Robot Interaction Technologies</api:text>
+                                </api:field>
+                            </api:native>
+                        </api:record>
+                        <api:record format="native" id="3555804" source-id="10" source-name="dimensions" source-display-name="Dimensions" id-at-source="pub.1116667329">
+                            <api:native>
+                                <api:field name="altmetric-attention-score" type="integer" display-name="Altmetric attention score">
+                                    <api:integer>1</api:integer>
+                                </api:field>
+                                <api:field name="authors" type="person-list" display-name="Authors">
+                                    <api:people>
+                                        <api:person>
+                                            <api:last-name>Amanatidis</api:last-name>
+                                            <api:initials>T</api:initials>
+                                            <api:first-names>Theocharis</api:first-names>
+                                            <api:separate-first-names>
+                                                <api:first-name>Theocharis</api:first-name>
+                                            </api:separate-first-names>
+                                            <api:addresses>
+                                                <api:address iso-country-code="GB">
+                                                    <api:line type="organisation">University of Cambridge</api:line>
+                                                    <api:line type="city">Cambridge</api:line>
+                                                    <api:line type="country">United Kingdom</api:line>
+                                                    <api:grid id="grid.5335.0" href="https://grid.ac/institutes/grid.5335.0" latitude="52.20445" longitude="0.11491"/>
+                                                </api:address>
+                                            </api:addresses>
+                                            <api:identifiers>
+                                                <api:identifier scheme="dimensions-researcher-id">ur.010170656343.83</api:identifier>
+                                            </api:identifiers>
+                                        </api:person>
+                                        <api:person>
+                                            <api:links>
+                                                <api:link type="elements/user" id="258" href="https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/users/258"/>
+                                            </api:links>
+                                            <api:last-name>Langdon</api:last-name>
+                                            <api:initials>P</api:initials>
+                                            <api:first-names>Patrick</api:first-names>
+                                            <api:separate-first-names>
+                                                <api:first-name>Patrick</api:first-name>
+                                            </api:separate-first-names>
+                                            <api:addresses>
+                                                <api:address iso-country-code="GB">
+                                                    <api:line type="organisation">University of Cambridge</api:line>
+                                                    <api:line type="city">Cambridge</api:line>
+                                                    <api:line type="country">United Kingdom</api:line>
+                                                    <api:grid id="grid.5335.0" href="https://grid.ac/institutes/grid.5335.0" latitude="52.20445" longitude="0.11491"/>
+                                                </api:address>
+                                            </api:addresses>
+                                            <api:identifiers>
+                                                <api:identifier scheme="dimensions-researcher-id">ur.013223541117.91</api:identifier>
+                                            </api:identifiers>
+                                        </api:person>
+                                        <api:person>
+                                            <api:links>
+                                                <api:link type="elements/user" id="80" href="https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/users/80"/>
+                                            </api:links>
+                                            <api:last-name>Clarkson</api:last-name>
+                                            <api:initials>PJ</api:initials>
+                                            <api:first-names>P John</api:first-names>
+                                            <api:separate-first-names>
+                                                <api:first-name>P</api:first-name>
+                                                <api:first-name>John</api:first-name>
+                                            </api:separate-first-names>
+                                            <api:addresses>
+                                                <api:address iso-country-code="GB">
+                                                    <api:line type="organisation">University of Cambridge</api:line>
+                                                    <api:line type="city">Cambridge</api:line>
+                                                    <api:line type="country">United Kingdom</api:line>
+                                                    <api:grid id="grid.5335.0" href="https://grid.ac/institutes/grid.5335.0" latitude="52.20445" longitude="0.11491"/>
+                                                </api:address>
+                                            </api:addresses>
+                                            <api:identifiers>
+                                                <api:identifier scheme="dimensions-researcher-id">ur.01262567414.81</api:identifier>
+                                            </api:identifiers>
+                                        </api:person>
+                                    </api:people>
+                                </api:field>
+                                <api:field name="doi" type="text" display-name="Publisher DOI">
+                                    <api:text>10.1007/978-3-030-20503-4_14</api:text>
+                                    <api:links>
+                                        <api:link type="doi" href="http://doi.org/10.1007/978-3-030-20503-4_14"/>
+                                        <api:link type="altmetric" href="http://www.altmetric.com/details.php?doi=10.1007/978-3-030-20503-4_14"/>
+                                    </api:links>
+                                </api:field>
+                                <api:field name="issn" type="text" display-name="ISSN">
+                                    <api:text>2194-5357</api:text>
+                                    <api:links>
+                                        <api:link type="elements/journal" href="https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/journals/920607"/>
+                                    </api:links>
+                                </api:field>
+                                <api:field name="pagination" type="pagination" display-name="Pagination">
+                                    <api:pagination>
+                                        <api:begin-page>157</api:begin-page>
+                                        <api:end-page>165</api:end-page>
+                                    </api:pagination>
+                                </api:field>
+                                <api:field name="parent-title" type="text" display-name="Book or section title">
+                                    <api:text>Advances in Human Factors of Transportation</api:text>
+                                </api:field>
+                                <api:field name="publication-date" type="date" display-name="Publication date">
+                                    <api:date>
+                                        <api:day>1</api:day>
+                                        <api:month>1</api:month>
+                                        <api:year>2020</api:year>
+                                    </api:date>
+                                </api:field>
+                                <api:field name="record-created-at-source-date" type="date" display-name="Record created at source">
+                                    <api:date>
+                                        <api:day>7</api:day>
+                                        <api:month>6</api:month>
+                                        <api:year>2019</api:year>
+                                    </api:date>
+                                </api:field>
+                                <api:field name="title" type="text" display-name="Title">
+                                    <api:text>An Inclusive, Fully Autonomous Vehicle Simulator for the Introduction of Human-Robot Interaction Technologies</api:text>
+                                </api:field>
+                                <api:field name="volume" type="text" display-name="Volume">
+                                    <api:text>964</api:text>
+                                </api:field>
+                            </api:native>
+                        </api:record>
+                    </api:records>
+                    <api:fields/>
+                    <api:journal issn="2194-5357" href="https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/journals/920607">
+                        <api:records>
+                            <api:record source-name="sjr">
+                                <api:title>Advances in Soft Computing</api:title>
+                            </api:record>
+                        </api:records>
+                    </api:journal>
+                    <api:relationships href="https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/publications/1104525/relationships"/>
+                    <api:last-flagged-as-grant-not-listed>2019-07-19T12:19:00.95+01:00</api:last-flagged-as-grant-not-listed>
+                </api:object>
+            </api:related>
+            <api:related direction="to" category="user" id="80">
+                <api:object category="user" id="80" proprietary-id="10071216" authenticating-authority="University of Cambridge" username="pjc10" last-affected-when="2019-11-12T20:02:24.58+00:00" last-modified-when="2019-10-17T13:12:50.85+01:00" href="https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/users/80" created-when="2009-05-27T14:03:28.977+01:00" type-id="1" type="person">                    <!--User type 1 is "person"-->
+                    <api:ever-approved>true</api:ever-approved>
+                    <api:is-public>false</api:is-public>
+                    <api:is-current-staff>true</api:is-current-staff>
+                    <api:photo href="https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/users/80/photo?type=profile"/>
+                    <api:is-academic>true</api:is-academic>
+                    <api:is-login-allowed>true</api:is-login-allowed>
+                    <api:title>Professor</api:title>
+                    <api:initials>PJ</api:initials>
+                    <api:last-name>Clarkson</api:last-name>
+                    <api:first-name>Peter</api:first-name>
+                    <api:email-address>pjc10@eng.cam.ac.uk</api:email-address>
+                    <api:known-as>John</api:known-as>
+                    <api:primary-group-descriptor>Department of Engineering</api:primary-group-descriptor>
+                    <api:arrive-date>1995-04-01</api:arrive-date>
+                    <api:position>Professor of Engineering Design</api:position>
+                    <api:department>Department of Engineering</api:department>
+                    <api:institutional-email-is-public>false</api:institutional-email-is-public>
+                    <api:claimed>true</api:claimed>
+                    <api:organisation-defined-data field-number="1" field-name="User defined first name">John</api:organisation-defined-data>
+                    <api:organisation-defined-data field-number="2" field-name="User defined last name">Clarkson</api:organisation-defined-data>                    <!--Additional generic field values would appear here, but are witheld because your account does not have access to sensitive HR data.-->
+                    <api:user-search-settings>
+                        <api:default>
+                            <api:affiliation>"Cambridge"</api:affiliation>
+                            <api:name>"Clarkson, P. J."</api:name>
+                        </api:default>
+                    </api:user-search-settings>
+                    <api:records>
+                        <api:record format="native" id="1219859" source-id="1" source-name="manual" source-display-name="Manual" id-at-source="3B542446-B246-4DCF-A6AC-71F1CCB9AA63">
+                            <api:native>
+                                <api:field name="academic-appointments" type="academic-appointment-list" display-name="Academic appointments">
+                                    <api:academic-appointments>
+                                        <api:academic-appointment privacy="public">
+                                            <api:institution iso-country-code="GB">
+                                                <api:line type="organisation">University of Cambridge</api:line>
+                                                <api:line type="suborganisation">Department of Engineering</api:line>
+                                                <api:line type="city">Cambridge</api:line>
+                                                <api:line type="country">United Kingdom</api:line>
+                                            </api:institution>
+                                            <api:position>Lecturer in Engineering Design</api:position>
+                                            <api:start-date>
+                                                <api:day>1</api:day>
+                                                <api:month>4</api:month>
+                                                <api:year>1995</api:year>
+                                            </api:start-date>
+                                            <api:end-date>
+                                                <api:day>30</api:day>
+                                                <api:month>9</api:month>
+                                                <api:year>2001</api:year>
+                                            </api:end-date>
+                                        </api:academic-appointment>
+                                        <api:academic-appointment privacy="public">
+                                            <api:institution iso-country-code="GB">
+                                                <api:line type="organisation">University of Cambridge</api:line>
+                                                <api:line type="suborganisation">Department of Engineering</api:line>
+                                                <api:line type="city">Cambridge</api:line>
+                                                <api:line type="country">United Kingdom</api:line>
+                                            </api:institution>
+                                            <api:position>Reader of Engineering Design</api:position>
+                                            <api:start-date>
+                                                <api:day>1</api:day>
+                                                <api:month>10</api:month>
+                                                <api:year>2001</api:year>
+                                            </api:start-date>
+                                            <api:end-date>
+                                                <api:day>30</api:day>
+                                                <api:month>9</api:month>
+                                                <api:year>2004</api:year>
+                                            </api:end-date>
+                                        </api:academic-appointment>
+                                        <api:academic-appointment privacy="public">
+                                            <api:institution iso-country-code="GB">
+                                                <api:line type="organisation">University of Cambridge</api:line>
+                                                <api:line type="suborganisation">Department of Engineering</api:line>
+                                                <api:line type="city">Cambridge</api:line>
+                                                <api:line type="country">United Kingdom</api:line>
+                                            </api:institution>
+                                            <api:position>Professor of Engineering Design</api:position>
+                                            <api:start-date>
+                                                <api:day>1</api:day>
+                                                <api:month>10</api:month>
+                                                <api:year>2004</api:year>
+                                            </api:start-date>
+                                        </api:academic-appointment>
+                                    </api:academic-appointments>
+                                </api:field>
+                                <api:field name="addresses" type="address-list" display-name="Addresses">
+                                    <api:addresses>
+                                        <api:address type="mailing" privacy="public" iso-country-code="GB">
+                                            <api:line type="organisation">University of Cambridge</api:line>
+                                            <api:line type="suborganisation">Department of Engineering</api:line>
+                                            <api:line type="street-address">Trumpington Street</api:line>
+                                            <api:line type="city">Cambridge</api:line>
+                                            <api:line type="state">CAMBS</api:line>
+                                            <api:line type="zip-code">CB2 1PZ</api:line>
+                                            <api:line type="country">United Kingdom</api:line>
+                                            <api:grid id="grid.5335.0" href="https://grid.ac/institutes/grid.5335.0" latitude="52.20445" longitude="0.11491"/>
+                                        </api:address>
+                                    </api:addresses>
+                                </api:field>
+                                <api:field name="certifications" type="certification-list" display-name="Certifications">
+                                    <api:certifications>
+                                        <api:certification privacy="public">
+                                            <api:title>Fellow</api:title>
+                                            <api:institution iso-country-code="GB">
+                                                <api:line type="organisation">Royal Academy of Engineering (RAEng)</api:line>
+                                                <api:line type="city">London</api:line>
+                                                <api:line type="country">United Kingdom</api:line>
+                                            </api:institution>
+                                            <api:effective-date>
+                                                <api:day>1</api:day>
+                                                <api:month>11</api:month>
+                                                <api:year>2012</api:year>
+                                            </api:effective-date>
+                                        </api:certification>
+                                        <api:certification privacy="public">
+                                            <api:title>Foreign Member</api:title>
+                                            <api:institution iso-country-code="SE">
+                                                <api:line type="organisation">Royal Swedish Academy of Engineering Sciences</api:line>
+                                                <api:line type="city">Stockholm</api:line>
+                                                <api:line type="country">Sweden</api:line>
+                                            </api:institution>
+                                            <api:effective-date>
+                                                <api:day>1</api:day>
+                                                <api:month>2</api:month>
+                                                <api:year>2013</api:year>
+                                            </api:effective-date>
+                                        </api:certification>
+                                        <api:certification privacy="public">
+                                            <api:title>Fellow</api:title>
+                                            <api:institution iso-country-code="GB">
+                                                <api:line type="organisation">Institution of Engineering and Technology (IET)</api:line>
+                                                <api:line type="city">London</api:line>
+                                                <api:line type="country">United Kingdom</api:line>
+                                            </api:institution>
+                                            <api:effective-date>
+                                                <api:day>1</api:day>
+                                                <api:month>10</api:month>
+                                                <api:year>2004</api:year>
+                                            </api:effective-date>
+                                        </api:certification>
+                                        <api:certification privacy="public">
+                                            <api:title>Fellow</api:title>
+                                            <api:institution iso-country-code="GB">
+                                                <api:line type="organisation">Institution of Engineering Designers (IED)</api:line>
+                                                <api:line type="city">London</api:line>
+                                                <api:line type="country">United Kingdom</api:line>
+                                            </api:institution>
+                                            <api:effective-date>
+                                                <api:day>1</api:day>
+                                                <api:month>10</api:month>
+                                                <api:year>2011</api:year>
+                                            </api:effective-date>
+                                        </api:certification>
+                                        <api:certification privacy="public">
+                                            <api:title>Member</api:title>
+                                            <api:institution iso-country-code="US">
+                                                <api:line type="organisation">American Society of Mechanical Engineers (ASME)</api:line>
+                                                <api:line type="country">United States</api:line>
+                                            </api:institution>
+                                            <api:effective-date>
+                                                <api:day>1</api:day>
+                                                <api:month>10</api:month>
+                                                <api:year>2002</api:year>
+                                            </api:effective-date>
+                                        </api:certification>
+                                    </api:certifications>
+                                </api:field>
+                                <api:field name="degrees" type="degree-list" display-name="Degrees">
+                                    <api:degrees>
+                                        <api:degree privacy="public">
+                                            <api:name>BA in Engneering (Electrical Sciences)</api:name>
+                                            <api:institution iso-country-code="GB">
+                                                <api:line type="organisation">University of Cambridge</api:line>
+                                                <api:line type="city">Cambridge</api:line>
+                                                <api:line type="country">United Kingdom</api:line>
+                                            </api:institution>
+                                            <api:start-date>
+                                                <api:day>1</api:day>
+                                                <api:month>10</api:month>
+                                                <api:year>1981</api:year>
+                                            </api:start-date>
+                                            <api:end-date>
+                                                <api:day>30</api:day>
+                                                <api:month>6</api:month>
+                                                <api:year>1984</api:year>
+                                            </api:end-date>
+                                        </api:degree>
+                                        <api:degree privacy="public">
+                                            <api:name>PhD in Engineering (Electrical Machines)</api:name>
+                                            <api:institution iso-country-code="GB">
+                                                <api:line type="organisation">University of Cambridge</api:line>
+                                                <api:line type="city">Cambridge</api:line>
+                                                <api:line type="country">United Kingdom</api:line>
+                                            </api:institution>
+                                            <api:start-date>
+                                                <api:day>1</api:day>
+                                                <api:month>10</api:month>
+                                                <api:year>1984</api:year>
+                                            </api:start-date>
+                                            <api:end-date>
+                                                <api:day>31</api:day>
+                                                <api:month>12</api:month>
+                                                <api:year>1987</api:year>
+                                            </api:end-date>
+                                        </api:degree>
+                                        <api:degree privacy="public">
+                                            <api:name>Doctor Honoris Causa (Engineering Design)</api:name>
+                                            <api:institution iso-country-code="BE">
+                                                <api:line type="organisation">KU Leuven</api:line>
+                                                <api:line type="city">Leuven</api:line>
+                                                <api:line type="country">Belgium</api:line>
+                                            </api:institution>
+                                            <api:start-date>
+                                                <api:day>1</api:day>
+                                                <api:month>2</api:month>
+                                                <api:year>2012</api:year>
+                                            </api:start-date>
+                                            <api:end-date>
+                                                <api:day>1</api:day>
+                                                <api:month>2</api:month>
+                                                <api:year>2012</api:year>
+                                            </api:end-date>
+                                        </api:degree>
+                                        <api:degree privacy="public">
+                                            <api:name>Doctor of Science</api:name>
+                                            <api:institution iso-country-code="GB">
+                                                <api:line type="organisation">University of Cambridge</api:line>
+                                                <api:line type="country">United Kingdom</api:line>
+                                            </api:institution>
+                                            <api:start-date>
+                                                <api:day>28</api:day>
+                                                <api:month>1</api:month>
+                                                <api:year>2017</api:year>
+                                            </api:start-date>
+                                            <api:end-date>
+                                                <api:day>28</api:day>
+                                                <api:month>1</api:month>
+                                                <api:year>2017</api:year>
+                                            </api:end-date>
+                                        </api:degree>
+                                    </api:degrees>
+                                </api:field>
+                                <api:field name="non-academic-employments" type="non-academic-employment-list" display-name="Non academic employments">
+                                    <api:non-academic-employments>
+                                        <api:non-academic-employment privacy="public">
+                                            <api:employer iso-country-code="GB">
+                                                <api:line type="organisation">PA Consulting Group</api:line>
+                                                <api:line type="suborganisation">Product and Process Engineering</api:line>
+                                                <api:line type="city">Melbourn</api:line>
+                                                <api:line type="country">United Kingdom</api:line>
+                                            </api:employer>
+                                            <api:position>Manager, Advanced Process Group</api:position>
+                                            <api:start-date>
+                                                <api:day>1</api:day>
+                                                <api:month>1</api:month>
+                                                <api:year>1988</api:year>
+                                            </api:start-date>
+                                            <api:end-date>
+                                                <api:day>31</api:day>
+                                                <api:month>3</api:month>
+                                                <api:year>1995</api:year>
+                                            </api:end-date>
+                                        </api:non-academic-employment>
+                                    </api:non-academic-employments>
+                                </api:field>
+                                <api:field name="overview" type="text" display-name="Overview">
+                                    <api:text privacy="public">His research interests are in the general area of engineering design, particularly the development of design methodologies to address specific design issues, for example, process management, change management, healthcare design and inclusive design. As well as publishing over 500 papers, he has written and edited a number of books on medical equipment design, inclusive design and process management.</api:text>
+                                </api:field>
+                                <api:field name="personal-websites" type="web-address-list" display-name="Personal websites">
+                                    <api:web-addresses>
+                                        <api:web-address privacy="public">
+                                            <api:url>http://www-edc.eng.cam.ac.uk/people/pjc10.html</api:url>
+                                            <api:type>company</api:type>
+                                            <api:label>Research</api:label>
+                                        </api:web-address>
+                                        <api:web-address privacy="public">
+                                            <api:url>http://www.eng.cam.ac.uk/profiles/pjc10</api:url>
+                                            <api:type>personal</api:type>
+                                            <api:label>Departmental website</api:label>
+                                        </api:web-address>
+                                        <api:web-address privacy="public">
+                                            <api:url>https://www.researchgate.net/profile/P_Clarkson</api:url>
+                                            <api:type>researchgate</api:type>
+                                            <api:label>ResearchGate</api:label>
+                                        </api:web-address>
+                                    </api:web-addresses>
+                                </api:field>
+                                <api:field name="phone-numbers" type="phone-number-list" display-name="Phone numbers">
+                                    <api:phone-numbers>
+                                        <api:phone-number privacy="public">
+                                            <api:number>+44 1223 748246</api:number>
+                                            <api:type>lab</api:type>
+                                        </api:phone-number>
+                                    </api:phone-numbers>
+                                </api:field>
+                            </api:native>
+                        </api:record>
+                    </api:records>
+                    <api:fields>
+                        <api:field name="labels" type="keyword-list" display-name="labels">
+                            <api:keywords>
+                                <api:keyword scheme="c-college">Trinity Hall</api:keyword>
+                                <api:keyword scheme="for">1204 Engineering Design</api:keyword>
+                                <api:keyword scheme="for">120403 Engineering Design Methods</api:keyword>
+                                <api:keyword scheme="for">120404 Engineering Systems Design</api:keyword>
+                                <api:keyword scheme="for">120405 Models of Engineering Design</api:keyword>
+                                <api:keyword scheme="c-internationalcollaboration">Austria</api:keyword>
+                                <api:keyword scheme="c-internationalcollaboration">Germany</api:keyword>
+                                <api:keyword scheme="c-internationalcollaboration">Sweden</api:keyword>
+                                <api:keyword scheme="c-internationalcollaboration">United States of America</api:keyword>
+                            </api:keywords>
+                        </api:field>
+                    </api:fields>
+                    <api:all-labels type="keyword-list">
+                        <api:keywords>
+                            <api:keyword scheme="c-college" origin="object-data">Trinity Hall</api:keyword>
+                            <api:keyword scheme="for" origin="object-data">1204 Engineering Design</api:keyword>
+                            <api:keyword scheme="for" origin="object-data">120403 Engineering Design Methods</api:keyword>
+                            <api:keyword scheme="for" origin="object-data">120404 Engineering Systems Design</api:keyword>
+                            <api:keyword scheme="for" origin="object-data">120405 Models of Engineering Design</api:keyword>
+                            <api:keyword scheme="c-internationalcollaboration" origin="object-data">Austria</api:keyword>
+                            <api:keyword scheme="c-internationalcollaboration" origin="object-data">Germany</api:keyword>
+                            <api:keyword scheme="c-internationalcollaboration" origin="object-data">Sweden</api:keyword>
+                            <api:keyword scheme="c-internationalcollaboration" origin="object-data">United States of America</api:keyword>
+                        </api:keywords>
+                    </api:all-labels>
+                    <api:relationships href="https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/users/80/relationships"/>
+                    <api:user-identifier-associations user-id="80" proprietary-id="10071216" username="pjc10">
+                        <api:user-identifier-association scheme="email-address" status="claimed" decision="always-me">pjc10@eng.cam.ac.uk</api:user-identifier-association>
+                        <api:user-identifier-association scheme="figshare-for-institutions-user-account-id" status="claimed" decision="always-me">10071216</api:user-identifier-association>
+                        <api:user-identifier-association scheme="orcid" status="claimed" decision="always-me">0000-0001-8018-7706</api:user-identifier-association>
+                    </api:user-identifier-associations>
+                </api:object>
+            </api:related>
+        </api:relationship>
+    </entry>
+</feed>
