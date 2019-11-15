@@ -43,6 +43,7 @@ fp.close()
 # extract the relationships - and list here
 
 extract_eprint = etree.XSLT(etree.XML(open('./symplectic2eprint.xslt').read()))
+extract_creators = etree.XSLT(etree.XML(open('./extract_creators.xslt').read()))
 for id in rel_ids:
     print(id)
     rel_url = "https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/relationships/"+id
@@ -51,7 +52,13 @@ for id in rel_ids:
     fp = urllib.request.urlopen(rel_url)
     # get array of relationship ids:
     #print(fp.read())
-    print(extract_eprint(etree.fromstring(fp.read())))
+    dom = etree.fromstring(fp.read())
+    # a small document containing the creators found in the relationship
+    creator_ele=extract_creators(dom)
+    print(extract_eprint(dom))
+    print(creator_ele)
+    print(etree.XML(str(creator_ele)))
+    # insert the creators that were found (<creators> node into the eprint)
     #fp.close()
 
 '''
