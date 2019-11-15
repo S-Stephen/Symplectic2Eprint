@@ -57,11 +57,17 @@ for id in rel_ids:
     creator_ele=extract_creators(dom)
     print(extract_eprint(dom))
     print(creator_ele)
-    print(etree.XML(str(creator_ele)))
-    # insert the creators that were found (<creators> node into the eprint)
+    tree = etree.XML(str(creator_ele))
+    #print(tree)
+    print( etree.XPath(".//text()") (creator_ele) )
+    '''
+    result = etree.tostring(tree.getroot(), pretty_print=True, method="html")
+    print(result)
+    #print(etree.parse(str(creator_ele)).getroot().find('.//creators'))
+    # insert the creators that were found (<creators> node into <eprint:creators>)
     #fp.close()
 
-'''
+
 #relurl = "https://"+args.credentials+"@elements.admin.cam.ac.uk:8092/elements-api/v5.5/relationship/2002783"
 relurl = "https://elements.admin.cam.ac.uk:8092/elements-api/v5.5/relationship/2002783"
 
