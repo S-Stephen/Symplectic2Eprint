@@ -2,6 +2,25 @@ from lxml import etree
 import urllib.request 
 import argparse
 
+def save_to_file(filename,content,fatal=False):
+    """creates and writes text to a file
+    
+    arguments:
+    filename - the path and file to create
+    content - the text to be written
+    fatal - true raise an exception on execption
+            false prints warning and returns
+    """
+    try:
+        fp = open(filename,"wb")
+        fp.write(content)
+        fp.close()
+    except Exception as e:
+        if fatal:
+            raise Error("An issue occured saving to file: "+filename+":\n"+str(e))
+        else:
+            print("warning: trouble saving content to "+filename+"\n:"+str(e)) #+" content: "+str(content))
+    
 # authenticate with Symplectic
 parser = argparse.ArgumentParser(description='credentials for request')
 parser.add_argument('pub_id', help='publication (symplectic) id')
@@ -50,12 +69,15 @@ for id in rel_ids:
     print(rel_url)
 
     fp = urllib.request.urlopen(rel_url)
+    symp_pub = fp.read()
+    save_to_file("./output/"+args.pub_id+"_"+id+"_symp",symp_pub)
     # get array of relationship ids:
     #print(fp.read())
-    dom = etree.fromstring(fp.read())
+    dom = etree.fromstring(symp_pub)
     # a small document containing the creators found in the relationship
     creator_ele=extract_creators(dom)
-    print(extract_eprint(dom))
+    save_to_file("./output/"+args.pub_id+"_"+id+"_eprint",extract_eprint(dom))
+    #print(eprint_pub)
     print(creator_ele)
     tree = etree.XML(str(creator_ele))
     #print(tree)
