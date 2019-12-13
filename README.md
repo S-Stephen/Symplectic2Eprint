@@ -14,6 +14,6 @@ python ./main.py <id> <user> <pword>
 Neatly render files with __XML Tools__ Josh Johnson:
 
 ```
-Ctrl + Shift + Alt B
+Ctrl + Shift + Alt + B
 ```
 
