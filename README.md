@@ -16,7 +16,7 @@ mkdir output
 python ./main.py <symplectic_id> <user> <pword>
 ```
 
-The output files (raw Symplectic file and transformed EpPrint file for each relationship found will be in ./output).
+The output files (raw Symplectic file and transformed EPrint file for each relationship found will be in ./output).
 
 Neatly render files with __XML Tools__ Josh Johnson:
 
