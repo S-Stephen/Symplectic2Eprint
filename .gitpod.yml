@@ -3,7 +3,5 @@ vscode:
     - DotJoshJohnson.xml@2.5.0:j/V3fdZHhHApG0UDF9KLqA==
 tasks:
   - init: "pipenv shell &&  \
-          pipenv install && \
-          cd src && \
-          mkdir output "
-  - command: "cd src && python ./main.py -h "
+          pipenv install"
+  - command: "pipenv shell && cd src && mkdir output && python ./main.py -h "
