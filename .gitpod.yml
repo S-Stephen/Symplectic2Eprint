@@ -10,4 +10,4 @@ tasks:
       mkdir output;
   - command: >
       pipenv shell;
-      python ./main.py -h
+      cd src && python ./main.py -h
