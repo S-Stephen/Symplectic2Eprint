@@ -4,8 +4,7 @@ vscode:
 tasks:
   - init: > 
       export PIPENV_VENV_IN_PROJECT=true;
-      pipenv shell;
-      pipenv install;
+      pipenv shell && pipenv install;
       mkdir src/output;
     command: >
       cd src; 
