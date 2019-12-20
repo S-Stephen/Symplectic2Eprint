@@ -2,12 +2,7 @@ vscode:
   extensions:
     - DotJoshJohnson.xml@2.5.0:j/V3fdZHhHApG0UDF9KLqA==
 tasks:
-  - init: > 
-      export PIPENV_VENV_IN_PROJECT=true;
-      pipenv shell;
-      pipenv install;
+  - init: chmod 755 ./setup.sh
   - command: >
-      pipenv shell;
-      cd src;
-      mkdir output;
-      python ./main.py -h
+      pipenv run ./setup.sh; 
+      pipenv shell
