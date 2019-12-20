@@ -5,7 +5,7 @@ tasks:
   - init: > 
       export PIPENV_VENV_IN_PROJECT=true;
       pipenv shell;
-      pipenv install;"
+      pipenv install;
   - command: >
       pipenv shell;
       cd src;
