@@ -1,3 +1,8 @@
 vscode:
   extensions:
     - DotJoshJohnson.xml@2.5.0:j/V3fdZHhHApG0UDF9KLqA==
+tasks:
+  - init: "pipenv shell \
+          pipenv install \
+          cd src \
+          mkdir output"

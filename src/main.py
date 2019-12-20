@@ -1,6 +1,7 @@
 from lxml import etree
 import urllib.request 
 import argparse
+from urllib.error import HTTPError
 
 def save_to_file(filename,content,fatal=False):
     """creates and writes text to a file
@@ -39,7 +40,10 @@ handler = urllib.request.HTTPBasicAuthHandler(password_mgr)
 # create "opener" (OpenerDirector instance)
 opener = urllib.request.build_opener(handler)
 # use the opener to fetch a URL
+
+
 opener.open(base_url)
+
 # Install the opener.
 # Now all calls to urllib.request.urlopen use our opener.
 urllib.request.install_opener(opener)
@@ -52,11 +56,19 @@ pub_rels_url = base_url+"publications/"+args.pub_id+"/relationships?types=8,9&pa
 # extract all the creator relationhip ids from our various relations
 extract_rels = etree.XSLT(etree.XML(open('./extract_relationships.xslt').read()))
 
+rel_ids=()
+try:
+    fp = urllib.request.urlopen(pub_rels_url)
+    # get array of relationship ids:
+    rel_ids = etree.XPath("//text()") (extract_rels(etree.fromstring(fp.read())))
+    fp.close()
+except HTTPError as err:
+    if err.code == 404:
+        print("Sorry publications ("+args.pub_id+") not found")
+        exit
+    else: 
+        raise
 
-fp = urllib.request.urlopen(pub_rels_url)
-# get array of relationship ids:
-rel_ids = etree.XPath("//text()") (extract_rels(etree.fromstring(fp.read())))
-fp.close()
 
 
 # extract the relationships - and list here
