@@ -8,5 +8,5 @@ tasks:
       pipenv install;
       mkdir src/output;
   - command: >
-      cd src 
+      cd src; 
       pipenv shell && python ./main.py -h
