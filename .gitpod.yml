@@ -2,8 +2,8 @@ vscode:
   extensions:
     - DotJoshJohnson.xml@2.5.0:j/V3fdZHhHApG0UDF9KLqA==
 tasks:
-  - init: "pipenv shell \
+  - init: "pipenv shell && \
           pipenv install "
-  - command: "cd src \
-          mkdir output \
+  - command: "cd src && \
+          mkdir output &&  \
           python ./main.py -h "
