@@ -7,6 +7,6 @@ tasks:
       pipenv shell;
       pipenv install;
       mkdir src/output;
-  - command: >
+    command: >
       cd src; 
       pipenv shell && python ./main.py -h
