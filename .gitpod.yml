@@ -6,8 +6,7 @@ tasks:
       export PIPENV_VENV_IN_PROJECT=true;
       pipenv shell;
       pipenv install;
-      cd src;
-      mkdir output;
+      mkdir src/output;
   - command: >
-      pipenv shell;
-      cd src && python ./main.py -h
+      cd src 
+      pipenv shell && python ./main.py -h
