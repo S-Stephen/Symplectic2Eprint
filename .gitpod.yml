@@ -3,9 +3,6 @@ vscode:
     - DotJoshJohnson.xml@2.5.0:j/V3fdZHhHApG0UDF9KLqA==
 tasks:
   - init: > 
-      export PIPENV_VENV_IN_PROJECT=true;
-      pipenv shell && pipenv install;
-      mkdir src/output;
+      chmod 755 ./setup.sh
     command: >
-      cd src; 
-      pipenv shell && python ./main.py -h
+      ./setup.sh
