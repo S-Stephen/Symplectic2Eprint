@@ -3,4 +3,6 @@ vscode:
     - DotJoshJohnson.xml@2.5.0:j/V3fdZHhHApG0UDF9KLqA==
 tasks:
   - init: chmod 755 ./setup.sh
-  - command: pipenv run ./setup.sh
+  - command: >
+      pipenv run ./setup.sh
+      pipenv shell

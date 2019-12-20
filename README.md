@@ -2,9 +2,11 @@
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/S-Stephen/Symplectic2Eprint)
 
-Transform a publication downloaded from Symplectic into an importable EPrint
+Transform a publication downloaded from Symplectic into EPrint format.
 
 ## Setup and run
+
+Git pod should have run this for you:
 
 ```
 pipenv shell
