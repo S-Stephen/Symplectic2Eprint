@@ -12,6 +12,7 @@ xmlns="http://eprints.org/ep2/data/2.0">
   <!-- scopus 7 -->
   <!-- pub med -->
   <!-- thompson -->
+  <!-- manual unverified -->
 
  <!-- api:record[@source-id=$source] -->
 
@@ -111,6 +112,9 @@ xmlns="http://eprints.org/ep2/data/2.0">
                 <xsl:when test="//api:record[@source-id=6][1]">
                         <!-- DBLP -->
                         <xsl:apply-templates select="//api:record[@source-id=6][1]"/>
+                </xsl:when>
+                <xsl:when test="//api:record[@source-id=1]/api:verification-status[text()='unverified'][1]">
+                        <xsl:apply-templates select="//api:record[@source-id=1][1]"/>
                 </xsl:when>
 
 
