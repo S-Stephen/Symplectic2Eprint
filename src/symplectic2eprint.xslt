@@ -7,7 +7,10 @@ xmlns="http://eprints.org/ep2/data/2.0">
   <xsl:template match="/">
   <!-- depending on the sources available set the prefered source -->
   <!-- preference: -->
+  <!-- preferred record -->
+  <!-- supplied source id -->
   <!-- manual verified -->
+  <!-- manual unverified -->
   <!-- web of science 3 -->
   <!-- scopus 7 -->
   <!-- pub med -->
@@ -90,6 +93,9 @@ xmlns="http://eprints.org/ep2/data/2.0">
 
                 <xsl:when test="//api:record[@source-id=1]/api:verification-status[text()='verified'][1]">
                         <!-- TODO test that this is a verified manual source -->
+                        <xsl:apply-templates select="//api:record[@source-id=1][1]"/>
+                </xsl:when>
+                <xsl:when test="//api:record[@source-id=1]/api:verification-status[text()='unverified'][1]">
                         <xsl:apply-templates select="//api:record[@source-id=1][1]"/>
                 </xsl:when>
                 <xsl:when test="//api:record[@source-id=7][1]">
